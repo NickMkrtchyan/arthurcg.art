@@ -2319,3 +2319,49 @@ body.blog .pagination li a i {
 .featured_project a {
   min-height: 500px !important;
 }
+
+@media only screen and (max-width: 1199px) {
+  .featured_project a img.responsive-img {
+  min-height: 100% !important;
+  object-fit: contain; !important;
+}
+.featured_project a {
+  min-height: 100% !important;
+}
+.img_project a {
+  min-height: 100% !important;
+}
+.img_project a img.responsive-img {
+  min-height: 300px !important;
+  object-fit: contain !important;
+}
+}
+.img_project a {
+  min-height: 800px;
+}
+.img_project a img.responsive-img {
+  min-height: 800px;
+  object-fit: contain !important;
+}
+.bl-show-work .zoom-image {
+  height: 100% !important;
+}
+.uc_btn {
+  width: 300px !important;
+}
+.uc_btn .uc {
+  display: none;
+}
+
+.uc_btn:hover .uc {
+background: red;
+    width: 302px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+    left: 23px;
+}
+.uc_btn:hover .dw {
+  display: none;
+}
