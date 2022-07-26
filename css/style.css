@@ -2312,3 +2312,10 @@ body.blog .pagination li a i {
   }
   
 }
+.featured_project a img.responsive-img {
+  min-height: 500px !important;
+  object-fit: cover !important;
+}
+.featured_project a {
+  min-height: 500px !important;
+}
