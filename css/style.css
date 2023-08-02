@@ -1423,6 +1423,10 @@ ul.social-intro li a {
   background: #0077b5;
 }
 
+.bl-main>section:nth-child(4).bl-expand ul.social-intro li.telegram a {
+  background: #229ED9;
+}
+
 .bl-main>section:nth-child(4).bl-expand ul.social-intro li.dribbble a {
   background: #ea4c89;
 }
