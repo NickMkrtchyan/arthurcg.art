@@ -2369,3 +2369,7 @@ background: red;
 .uc_btn:hover .dw {
   display: none;
 }
+
+.capoeira_item img {
+	object-position: bottom;
+}
